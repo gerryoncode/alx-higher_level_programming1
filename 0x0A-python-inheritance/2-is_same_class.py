@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 Checks whether an ibject is exactly an instance of the specified class 
 """
 
