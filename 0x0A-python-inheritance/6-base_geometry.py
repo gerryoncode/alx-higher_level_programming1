@@ -3,7 +3,7 @@
 BaseGeometry class
 """
 
-class BaseGeometry():
+class BaseGeometry:
     """ This is the class """
     def_area(self):
         """ Raises an exception """
