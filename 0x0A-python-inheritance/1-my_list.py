@@ -2,6 +2,8 @@
 """
 Contains class MyList that inherits from list
 """
+
+
 class MyList(list):
     """ Displays the public instance of print """
     def __init__(self):
