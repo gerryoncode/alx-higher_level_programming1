@@ -7,4 +7,4 @@ class BaseGeometry():
     """ This is the class """
     def_area(self):
         """ Raises an exception """
-        raise("area() is not implemented")
+        raise Exception("area() is not implemented")
