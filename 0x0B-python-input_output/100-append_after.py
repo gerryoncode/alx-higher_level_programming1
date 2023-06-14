@@ -5,10 +5,10 @@
 def append_after(filename="", search_string="", new_string=""):
     """Adds a new line after each line containing aspecific string"""
    text = ""
-   with open(filename, 'r') as f:
+   with open(filename) as f:
         for line in f:
             text += line
             if search_string in line:
-                text += string
+                text += new_string
     with open(filename, 'w') as w:
         w.write(text)
