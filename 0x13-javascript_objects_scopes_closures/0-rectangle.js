@@ -1,3 +1,2 @@
-#!/usr/bin/env node
-class Rectangle {
-}
+#!/usr/bin/node
+class Rectangle {}
